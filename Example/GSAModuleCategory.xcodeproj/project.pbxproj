@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		84F785CF23321E8C00233FDD /* CTMediator+GSACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F785CE23321E8C00233FDD /* CTMediator+GSACategory.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D61E8E48C66BD9C58B5661E7 /* Pods_GSAModuleCategory_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106D481E0E99CDE6A955AEB5 /* Pods_GSAModuleCategory_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -38,10 +39,10 @@
 
 /* Begin PBXFileReference section */
 		106D481E0E99CDE6A955AEB5 /* Pods_GSAModuleCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSAModuleCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AEA4DDC72D61B94C606CF6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2AEA4DDC72D61B94C606CF6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3AF0BEB9BAE21D6629AAEE18 /* Pods-GSAModuleCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSAModuleCategory_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GSAModuleCategory_Tests/Pods-GSAModuleCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3CD438A672815AC86EF97148 /* Pods-GSAModuleCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSAModuleCategory_Example.debug.xcconfig"; path = "Target Support Files/Pods-GSAModuleCategory_Example/Pods-GSAModuleCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		508FC2A5B5004FD869EB9819 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		508FC2A5B5004FD869EB9819 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GSAModuleCategory_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSAModuleCategory_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +63,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F785CD23321E8C00233FDD /* CTMediator+GSACategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+GSACategory.h"; sourceTree = "<group>"; };
+		84F785CE23321E8C00233FDD /* CTMediator+GSACategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+GSACategory.m"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87E22D117D4C1E6A696AE86F /* Pods-GSAModuleCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSAModuleCategory_Example.release.xcconfig"; path = "Target Support Files/Pods-GSAModuleCategory_Example/Pods-GSAModuleCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
 		904866BABF77ED67B0B1AA0F /* Pods-GSAModuleCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSAModuleCategory_Tests.release.xcconfig"; path = "Target Support Files/Pods-GSAModuleCategory_Tests/Pods-GSAModuleCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B737C5DB42DEE9CD77EACD54 /* Pods_GSAModuleCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSAModuleCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C835E6E1BC0F598A78350EB4 /* GSAModuleCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GSAModuleCategory.podspec; path = ../GSAModuleCategory.podspec; sourceTree = "<group>"; };
+		C835E6E1BC0F598A78350EB4 /* GSAModuleCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GSAModuleCategory.podspec; path = ../GSAModuleCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				84F785CD23321E8C00233FDD /* CTMediator+GSACategory.h */,
+				84F785CE23321E8C00233FDD /* CTMediator+GSACategory.m */,
 			);
 			name = "Example for GSAModuleCategory";
 			path = GSAModuleCategory;
@@ -193,7 +198,6 @@
 				3AF0BEB9BAE21D6629AAEE18 /* Pods-GSAModuleCategory_Tests.debug.xcconfig */,
 				904866BABF77ED67B0B1AA0F /* Pods-GSAModuleCategory_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -302,10 +306,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GSAModuleCategory_Example/Pods-GSAModuleCategory_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/GSAModuleCategory/GSAModuleCategory.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSAModuleCategory.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +373,7 @@
 				6003F59E195388D20070C39A /* GSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				84F785CF23321E8C00233FDD /* CTMediator+GSACategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

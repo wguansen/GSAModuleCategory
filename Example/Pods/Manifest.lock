@@ -1,0 +1,24 @@
+PODS:
+  - CTMediator (25)
+  - GSAModuleCategory (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - CTMediator
+  - GSAModuleCategory (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  GSAModuleCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  GSAModuleCategory: 7a9a9db6caf64290371554563cf7ba4ed5ba6b63
+
+PODFILE CHECKSUM: 41273744008b418c04e4ea8c30e54710800d0980
+
+COCOAPODS: 1.7.5
